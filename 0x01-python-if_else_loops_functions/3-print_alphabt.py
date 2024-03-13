@@ -3,6 +3,6 @@
 alphabet = ""
 for i in range(97, 123):
     if i not in [101, 113]:
-        alphabet += char(i)
+        alphabet += chr(i)
 
 print('{}'.format(alphabet))
