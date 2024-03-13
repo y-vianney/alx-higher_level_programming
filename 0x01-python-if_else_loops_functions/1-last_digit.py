@@ -2,7 +2,7 @@
 import random
 number = random.randint(-10000, 10000)
 
-last_digit = int(str(number)[-1])
+last_digit = int(str(number)[-1]) * (-1 if number < 0 else 1)
 text = ""
 
 if number > 5:
