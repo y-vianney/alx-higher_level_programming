@@ -2,5 +2,6 @@
 
 def remove_char_at(str, n):
     str = list(str)
-    str.pop(n)
+    if n < len(str) - 1:
+        str.pop(n)
     return ''.join(str)
