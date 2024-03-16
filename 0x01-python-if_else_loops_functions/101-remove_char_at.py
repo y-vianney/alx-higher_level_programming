@@ -3,7 +3,7 @@
 def remove_char_at(str, n):
     str = list(str)
 
-    if abs(n) < len(str) - 1:
-        str.pop(abs(n))
+    if 0 < n < len(str) - 1:
+        str.pop(n)
     
     return ''.join(str)
