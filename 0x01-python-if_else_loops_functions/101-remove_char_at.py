@@ -5,5 +5,5 @@ def remove_char_at(str, n):
 
     if 0 <= n < len(str):
         str.pop(n)
-    
+
     return ''.join(str)
