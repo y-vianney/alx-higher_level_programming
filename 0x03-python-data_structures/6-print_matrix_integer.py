@@ -8,8 +8,3 @@ def print_matrix_integer(matrix=[[]]):
             else:
                 print("{:d}".format(num), end=" ")
         print()
-print_matrix_integer([
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-])
