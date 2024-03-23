@@ -13,8 +13,8 @@ if __name__ == "__main__":
             sys.exit(1)
         else:
             result = 0
-            a = args[0]
-            b = args[2]
+            a = int(args[0])
+            b = int(args[2])
             if args[1] == "+":
                 print("{} {} {} = {}".format(a, args[1], b, add(a, b)))
             elif args[1] == "-":
