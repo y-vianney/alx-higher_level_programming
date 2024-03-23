@@ -2,10 +2,18 @@
 
 from magic_calculation_102 import add, sub
 
+
 def magic_calculation(a, b):
     """
     Performs magic calculation based on a and b values.
     This function mimics the behavior of the provided bytecode.
+
+    Parameters:
+    a (int): The first operand.
+    b (int): The second operand.
+
+    Returns:
+    int: The result of the magic calculation.
     """
 
     if a < b:
