@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 
 def safe_print_list(my_list=[], x=0):
+    """safe_print_list(my_list, x):
+    Prints x elements of a list (my_list) and returns
+    the real number of elements printed.
+    """
     index = 0
     res = ""
 
@@ -16,12 +20,3 @@ def safe_print_list(my_list=[], x=0):
     print(int(res))
     return index
 
-
-my_list = [1, 2, 3, 4, 5]
-
-nb_print = safe_print_list(my_list, 2)
-print("nb_print: {:d}".format(nb_print))
-nb_print = safe_print_list(my_list, len(my_list))
-print("nb_print: {:d}".format(nb_print))
-nb_print = safe_print_list(my_list, len(my_list) + 2)
-print("nb_print: {:d}".format(nb_print))
