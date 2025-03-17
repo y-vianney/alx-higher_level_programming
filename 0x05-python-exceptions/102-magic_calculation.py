@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-import dis
-
 
 def magic_calculation(a, b):
 	"""Does magic calculation based on Py bytecode"""
@@ -18,6 +16,3 @@ def magic_calculation(a, b):
 			break
 
 	return result
-
-
-print(dis.dis(magic_calculation))
