@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"path": "C:\\Users\\Vianney\\Documents\\GitHub\\alx-higher_level_programming",
+		}
+	],
+	"debugger_configurations":
+	[
+		{
+			"name": "Python: Current File",
+			"type": "python",
+			"request": "launch",
+			"program": "${file}"
+		},
+	],
+}
